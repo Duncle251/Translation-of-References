@@ -1,0 +1,22 @@
+/* Columns => أعمدة */
+.columns {
+  column-count: 2 ;
+}
+
+.columns small {
+  display: block ;
+  direction: rtl ;
+  font-size: smaller ;
+}
+
+.columns bdi {
+ display: inline-block ;
+ font-size: inherit ;
+}
+
+.columns small , .columns bdi {
+  margin : 0px ;
+  padding: 0px ;
+  
+}
+

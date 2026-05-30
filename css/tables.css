@@ -1,0 +1,38 @@
+
+/* تنسيق الجدول الرئيسي */
+table {
+  width: 100% ; /* عرض */
+  border-collapse: collapse; /* دمج الحدود */ /* انهيار الحدود */
+  background-color: which ;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  empty-cells: hide ;
+}
+/* تنسيق خلايا الرأس */
+thead tr {
+    background-color: #4CAF50;
+    color: white;
+}
+
+th, td {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* تنسيق صفوف الجسم */
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* تنسيق الصفوف الزوجية بلون مختلف */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+/* تنسيق آخر صف في الجدول */
+tbody tr:last-child td {
+  border-bottom: none;
+}
+tr td:nth-child(1){
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

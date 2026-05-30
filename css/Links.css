@@ -1,0 +1,84 @@
+
+* {
+  font-size: xx-small ;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-sizing: border-box ;
+}
+body {
+  background: #f9f9f9 ;
+}
+
+header {
+  margin-inline: 5px ;
+}
+
+main {
+  margin-inline :5px ;
+}
+
+footer {
+  margin-inline : 15px ;
+}
+
+.ar , #ar {
+  direction: rtl ;
+}
+
+/* visit-btn = زر الزيارة  */
+
+nav {
+  background: #ddd ;
+}
+.Grid-References {
+  display: grid ;
+  grid-template-columns :1fr 1fr 1fr ;
+}
+
+
+a {
+  display:block  ;
+  box-shadow: 1px 1px grey;
+  width: 100%;
+  margin: 1px ;
+  padding: 1px;
+  background-color: #6e8efb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  text-align: center ;
+}
+
+a:hover {
+  background-color: #eaf4ff;
+  color: #000;
+}
+
+small {
+  display: block ;
+  direction: rtl ;
+}
+.Flex-References {
+  display: grid ;
+  grid-template-columns :1fr 1fr 1fr 1fr 1fr
+  
+}
+a[href="#"] {
+  display: none;
+}
+ 
+/* counter => عداد */
+nav {
+  counter-reset: a ;
+}
+a::before {
+  counter-increment: a ;
+  content: counter(a) ". ";
+}
+nav a small::before {
+  content: counter(a) ". ";
+}
+
