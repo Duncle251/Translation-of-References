@@ -1,1 +1,141 @@
 
+* {
+  font-size: xx-small ;
+  
+  box-sizing: border-box ;
+  /* font-family: 'Times New Roman', Times, serif; */
+  
+}
+
+body {
+  background: #f9f9f9 ;
+}
+
+header {
+  margin: 5px ;
+  border: 1px solid #eee ;
+}
+
+header h1 {
+  text-indent: 10px ;
+}
+
+
+footer {
+  margin-inline : 15px ;
+}
+
+.ar , #ar {
+  direction: rtl ;
+}
+
+#Table-Container .container {
+  border: 2px double gray ;
+  margin: 1px 1px 10px 1px;
+}
+#Table-Container .container p {
+  border :1px solid gray ;
+  border-radius: 2px ;
+  padding: 2px ;
+  margin: 1px ;
+  font-size: xx-small ;
+  
+}
+#Table-Container .container p b {
+  display: inline-block ;
+  user-select: all ;
+  text-indent: 20px ;
+  text-align: center ;
+}
+#Table-Container .container p span , #Table-Container .container p dfn {
+  display : block ;
+  text-indent: 10px ;
+  user-select: all ;
+  text-align: center ;
+}
+#Table-Container .container p i{
+  display: inline-block ;
+  margin-left: 10px ;
+  border-bottom: 2px double hotpink ;
+}
+#Table-Container .container p em{
+  display: inline-block ;
+  margin-left: 10px ;
+  border-bottom: 1px solid darkorchid ;
+}
+.CSS-Aural ol ,.CSS-Aural li {
+  text-align: center ;
+  
+}
+#Editor {
+  background: #ddd ;
+  border-radius: 5px ;
+  margin: 1px ;
+  padding: 1px ;
+}
+#Editor pre {
+  background: #fff ;
+  padding: 1px ;
+  padding-left: 10px ;
+  border-left: 5px solid green ;
+  border-radius: 5px ;
+}
+a {
+  color: #000;
+}
+#red, .red, .red a {
+  color :red ;
+  
+}
+.Red-Span {
+  color: red ;
+  background: #eee ;
+  padding: 1px ;
+}
+.a {
+  color: red;
+  background: #eee;
+  padding: 2px ;
+}
+
+hr {
+  background: #ddd ;
+  color: #000;
+  padding: 0.2% ;
+  margin : 2px 0px ;
+}
+
+#Pre-Example {
+  border: 1px solid gray ;
+  padding: 2px ;
+}
+#Pre-Example .red {
+  color: rgb(red, green, blue);
+}
+#Pre-Example .Purple {
+  color: #800080 ;
+}
+
+#Note , #Tip{
+  background: #ffffcc ;
+  padding: 5px ;
+}
+#Note-Pink {
+  background: #ffd9e0 ;
+  padding: 5px ;
+}
+
+.Try-it {
+  display: inline-block ;
+  text-decoration: none ;
+  border: 1px solid black ;
+  border-radius: 4px ;
+  padding: 2px ;
+  color: #fff ;
+  background: #009900 ;
+}
+
+.Try-it {
+  
+  float: right ;
+}
